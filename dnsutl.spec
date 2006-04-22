@@ -10,6 +10,8 @@ URL:		http://dnsutl.sourceforge.net/
 BuildRequires:	bison
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_bindir	%{_prefix}/sbin
+
 %description
 The dnsutl package is a collection tools to make administering DNS
 easier.
