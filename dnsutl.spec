@@ -1,4 +1,5 @@
 Summary:	Collection of tools to make administering DNS easier
+Summary(pl):	Zestaw narzêdzi u³atwiaj±cych administrowanie DNS-em
 Name:		dnsutl
 Version:	1.8
 Release:	1
@@ -40,6 +41,32 @@ These include:
 All of these programs are both faster than shell scripts, and more
 robust when faced with all the peculiar semantics of DNS resource
 files. They even understand the $include directive.
+
+%description -l pl
+Pakiet dnsutl to zestaw narzêdzi u³atwiaj±cych administrowanie DNS-em.
+Zawiera:
+- dns-rev - generowanie odwrotnych odwzorowañ DNS na podstawie
+  prostych; przydatne do tworzenia samodzielnej konfiguracji DNS.
+- dns-ethers - u¿ywaj±c fa³szywego rodzaju rekordu mo¿na przechowywaæ
+  adresy MAC wraz z adresami IP i generowaæ plik /etc/ethers.
+- dns-hosts - pobieranie prostego odwzorowania DNS i generowanie pliku
+  /etc/hosts.
+- dns-bootp - generowanie pliku /etc/bootptab na podstawie informacji
+  o adresach MAC i IP.
+- dns-ng - pobieranie prostego odwzorowania DNS i generowanie pliku
+  /etc/netgroup.
+- dns-bootparams - przy u¿yciu informacji o adresach MAC i IP pozwala
+  generowaæ plik /etc/bootparams dla Suna.
+- dns-boot-check - sprawdzanie konfiguracji serwera named(8) pod k±tem
+  samodzielno¶ci.
+- dns-hosts-import - zamiana pliku /etc/hosts na odwzorowanie proste
+  DNS jako pierwszy krok do konfiguracji serwera DNS.
+- dns-dhcp - przy u¿yciu informacji o adresach MAC i IP pozwala
+  generowaæ plik /etc/dhcp.conf.
+
+Wszystkie te programy s± szybsze ni¿ skrypty pow³oki i przydatniejsze
+w po³±czeniu ze szczególn± semantyk± plików zasobów DNS. Rozumiej±
+nawet dyrektywê $include.
 
 %prep
 %setup -q
