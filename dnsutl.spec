@@ -1,5 +1,5 @@
 Summary:	Collection of tools to make administering DNS easier
-Summary(pl.UTF-8):   Zestaw narzędzi ułatwiających administrowanie DNS-em
+Summary(pl.UTF-8):	Zestaw narzędzi ułatwiających administrowanie DNS-em
 Name:		dnsutl
 Version:	1.8
 Release:	1
