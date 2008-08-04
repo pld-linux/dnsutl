@@ -1,12 +1,12 @@
 Summary:	Collection of tools to make administering DNS easier
 Summary(pl.UTF-8):	Zestaw narzędzi ułatwiających administrowanie DNS-em
 Name:		dnsutl
-Version:	1.8
+Version:	1.11
 Release:	1
 License:	GPL v2
 Group:		Applications
 Source0:	http://dl.sourceforge.net/dnsutl/%{name}-%{version}.tar.gz
-# Source0-md5:	10f47572221b7376a07449ac0ff62fdc
+# Source0-md5:	6de57b9589e6210a64703af29a1522af
 URL:		http://dnsutl.sourceforge.net/
 BuildRequires:	bison
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
